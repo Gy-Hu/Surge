@@ -1,46 +1,46 @@
 # xiaohongshu
-DOMAIN-SUFFIX,xiaohongshu.com,REJECT 
-DOMAIN-SUFFIX,xhscdn.com,REJECT 
-DOMAIN-KEYWORD,xiaohongshu,REJECT
-DOMAIN-KEYWORD,xhscdn,REJECT
-DOMAIN-KEYWORD,xhs,REJECT //aggresive block
-USER-AGENT,*xhscdn*,REJECT //aggresive block
-USER-AGENT,*xiaohongshu*,REJECT //aggresive block
-URL-REGEX,*xiaohongshu*,REJECT //aggresive block
-URL-REGEX,*xhs*,REJECT //aggresive block
+DOMAIN-SUFFIX,xiaohongshu.com 
+DOMAIN-SUFFIX,xhscdn.com 
+DOMAIN-KEYWORD,xiaohongshu
+DOMAIN-KEYWORD,xhscdn
+DOMAIN-KEYWORD,xhs //aggresive block
+USER-AGENT,*xhscdn* //aggresive block
+USER-AGENT,*xiaohongshu* //aggresive block
+URL-REGEX,*xiaohongshu* //aggresive block
+URL-REGEX,*xhs* //aggresive block
 
 # bilibili
-DOMAIN-KEYWORD,biligame,REJECT
-DOMAIN-SUFFIX,hdslb.com,REJECT 
-DOMAIN-KEYWORD,bilivideo,REJECT 
-DOMAIN-KEYWORD,bilibili,REJECT
-DOMAIN-KEYWORD,biliapi,REJECT
-DOMAIN-KEYWORD,bili,REJECT //aggresive block
+DOMAIN-KEYWORD,biligame
+DOMAIN-SUFFIX,hdslb.com 
+DOMAIN-KEYWORD,bilivideo 
+DOMAIN-KEYWORD,bilibili
+DOMAIN-KEYWORD,biliapi
+DOMAIN-KEYWORD,bili //aggresive block
 
 # zhihu
-DOMAIN-KEYWORD,zhihu,REJECT
-DOMAIN-SUFFIX,zhimg.com,REJECT
+DOMAIN-KEYWORD,zhihu
+DOMAIN-SUFFIX,zhimg.com
 
 # douyin
-DOMAIN-KEYWORD,douyin,REJECT
+DOMAIN-KEYWORD,douyin
 
 # youtube
-DOMAIN-KEYWORD,youtube,REJECT
+DOMAIN-KEYWORD,youtube
 
 # taobao
-DOMAIN-KEYWORD,taobao,REJECT
+DOMAIN-KEYWORD,taobao
 
 # others
-DOMAIN-SUFFIX,pstatp.com,REJECT
-DOMAIN-SUFFIX,snssdk.com,REJECT
-DOMAIN-SUFFIX,ixigua.com,REJECT
-DOMAIN-SUFFIX,aweme.snssdk.com,REJECT
-DOMAIN-SUFFIX,amemv.com,REJECT
-DOMAIN-SUFFIX,ixiguavideo.com,REJECT
-DOMAIN-SUFFIX,yximgs.com,REJECT
-DOMAIN-SUFFIX,gifshow.com,REJECT
-DOMAIN-SUFFIX,huoshan.com,REJECT
-DOMAIN-SUFFIX,douyin.com,REJECT
-DOMAIN-SUFFIX,iesdouyin.com,REJECT
-DOMAIN-SUFFIX,toutiao.com,REJECT
-DOMAIN-KEYWORD,snssdk,REJECT // aggresive block
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,aweme.snssdk.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,ixiguavideo.com
+DOMAIN-SUFFIX,yximgs.com
+DOMAIN-SUFFIX,gifshow.com
+DOMAIN-SUFFIX,huoshan.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-KEYWORD,snssdk // aggresive block
