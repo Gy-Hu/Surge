@@ -1,0 +1,46 @@
+# xiaohongshu
+DOMAIN-SUFFIX,xiaohongshu.com,REJECT 
+DOMAIN-SUFFIX,xhscdn.com,REJECT 
+DOMAIN-KEYWORD,xiaohongshu,REJECT
+DOMAIN-KEYWORD,xhscdn,REJECT
+DOMAIN-KEYWORD,xhs,REJECT //aggresive block
+USER-AGENT,*xhscdn*,REJECT //aggresive block
+USER-AGENT,*xiaohongshu*,REJECT //aggresive block
+URL-REGEX,*xiaohongshu*,REJECT //aggresive block
+URL-REGEX,*xhs*,REJECT //aggresive block
+
+# bilibili
+DOMAIN-KEYWORD,biligame,REJECT
+DOMAIN-SUFFIX,hdslb.com,REJECT 
+DOMAIN-KEYWORD,bilivideo,REJECT 
+DOMAIN-KEYWORD,bilibili,REJECT
+DOMAIN-KEYWORD,biliapi,REJECT
+DOMAIN-KEYWORD,bili,REJECT //aggresive block
+
+# zhihu
+DOMAIN-KEYWORD,zhihu,REJECT
+DOMAIN-SUFFIX,zhimg.com,REJECT
+
+# douyin
+DOMAIN-KEYWORD,douyin,REJECT
+
+# youtube
+DOMAIN-KEYWORD,youtube,REJECT
+
+# taobao
+DOMAIN-KEYWORD,taobao,REJECT
+
+# others
+DOMAIN-SUFFIX,pstatp.com,REJECT
+DOMAIN-SUFFIX,snssdk.com,REJECT
+DOMAIN-SUFFIX,ixigua.com,REJECT
+DOMAIN-SUFFIX,aweme.snssdk.com,REJECT
+DOMAIN-SUFFIX,amemv.com,REJECT
+DOMAIN-SUFFIX,ixiguavideo.com,REJECT
+DOMAIN-SUFFIX,yximgs.com,REJECT
+DOMAIN-SUFFIX,gifshow.com,REJECT
+DOMAIN-SUFFIX,huoshan.com,REJECT
+DOMAIN-SUFFIX,douyin.com,REJECT
+DOMAIN-SUFFIX,iesdouyin.com,REJECT
+DOMAIN-SUFFIX,toutiao.com,REJECT
+DOMAIN-KEYWORD,snssdk,REJECT // aggresive block
