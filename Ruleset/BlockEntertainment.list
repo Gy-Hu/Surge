@@ -18,8 +18,8 @@ DOMAIN-KEYWORD,biliapi
 DOMAIN-KEYWORD,bili //aggresive block
 
 # zhihu
-DOMAIN-KEYWORD,zhihu
-DOMAIN-SUFFIX,zhimg.com
+#DOMAIN-KEYWORD,zhihu
+#DOMAIN-SUFFIX,zhimg.com
 
 # douyin
 DOMAIN-KEYWORD,douyin
