@@ -25,7 +25,7 @@ DOMAIN-KEYWORD,bili //aggresive block
 DOMAIN-KEYWORD,douyin
 
 # youtube
-#DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,youtube
 
 # taobao
 DOMAIN-KEYWORD,taobao
